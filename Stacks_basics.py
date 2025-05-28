@@ -70,3 +70,6 @@ if __name__=="__main__":
     stack1.pop()
     stack1.pop()
     print("Is stack empty after popping all?", stack1.is_empty())
+
+
+#code 1

@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="Linked lists first code" />
     <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="This is my second linked lists code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Palindromes.py" afterDir="false" />
@@ -23,6 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="Linked_lists" />
         <entry key="$PROJECT_DIR$" value="Linked_lists2" />
       </map>
     </option>
@@ -51,6 +53,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Linked__lists2"
+  }
+}]]></component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -92,6 +102,13 @@
       <option name="project" value="LOCAL" />
       <updated>1748192962214</updated>
     </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is my first commit" />
+    <MESSAGE value="Linked lists code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked lists code" />
     <task id="LOCAL-00003" summary="This is my first commit">
       <option name="closed" value="true" />
       <created>1748193344071</created>

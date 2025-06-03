@@ -72,3 +72,4 @@ if __name__=="__main__":
     print("Is stack empty after popping all?", stack1.is_empty())
 
 
+#.....

@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="Linked lists first code" />
+    <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="This is my second linked lists code">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Palindromes.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +25,7 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="Linked_lists" />
+        <entry key="$PROJECT_DIR$" value="Linked_lists2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +61,16 @@
     "git-widget-placeholder": "Linked__lists2"
   }
 }]]></component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.dictionary_palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Palindromes&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Elavaza Sandra/PycharmProjects/Classwork&quot;
+  }
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,5 +109,29 @@
     <MESSAGE value="This is my first commit" />
     <MESSAGE value="Linked lists code" />
     <option name="LAST_COMMIT_MESSAGE" value="Linked lists code" />
+    <task id="LOCAL-00003" summary="This is my first commit">
+      <option name="closed" value="true" />
+      <created>1748193344071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748193344071</updated>
+    </task>
+    <task id="LOCAL-00004" summary="This is my second linked lists code">
+      <option name="closed" value="true" />
+      <created>1748236437744</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748236437744</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Linked lists code" />
+    <MESSAGE value="This is my first commit" />
+    <MESSAGE value="This is my second linked lists code" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is my second linked lists code" />
   </component>
 </project>

@@ -4,6 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="b6d94be6-6181-4dce-a57b-116c746cad19" name="Changes" comment="This is my second linked lists code">
+      <change beforePath="$PROJECT_DIR$/dictionary_palindrome.py" beforeDir="false" />
     <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="This is my linked lists' code" />
     <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="Linked lists first code" />
     <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="This is my second linked lists code">
@@ -15,6 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,10 +33,19 @@
         <entry key="$PROJECT_DIR$" value="Linked_lists2" />
       </map>
     </option>
+
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "Stacks__llists"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <servers />
   </component>
   <component name="PropertiesComponent"><![CDATA[{}]]></component>
   <component name="TaskManager">

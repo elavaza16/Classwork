@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ce3085b-561c-4f1a-8d70-7a58501a3ad4" name="Changes" comment="This is my second stacks code">
-      <change afterPath="$PROJECT_DIR$/Stacks_basics.py" afterDir="false" />
-    </list>
+    <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="This is my linked lists' code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,11 +28,7 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "Stacks__basics"
-  }
-}]]></component>
+  <component name="PropertiesComponent"><![CDATA[{}]]></component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="This is my second stacks code">
       <option name="closed" value="true" />

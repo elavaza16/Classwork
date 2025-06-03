@@ -1,35 +1,35 @@
-#Using stacks to check if a word is a palindrome
+import re
+class Palindrome:
+    def __init__(self):
+        self.stack = []
 
-class Palindromes:
-    def _init_(self):
-        self.stack=[]
-    #Push the characters into a stack
-    def push(self,characters):
-        self.stack.append(characters)
+    def push(self, ch):
+        self.stack.append(ch)
 
     def pop(self):
-        return  self.stack.pop()
+        return self.stack.pop()
 
-def is_palindrome(s):
 
-    check=Palindromes()
+# Create the Solution object
+def is_palindrome(ch):
+    #Clean the string  by removing characters not letters or digits and convert the string to lowercase
+    cleaned = re.sub(r'[^a-zA-Z0-9]', '', ch).lower()
+    obj = Palindrome()
+    for ch in cleaned:
+        obj.push(ch)
 
-    for char in s:
-        check.push(char)
-
-    for i in range(len(s) //2):
-        if check.pop()!=s[i]:
-         return False
+    for i in range(len(cleaned) // 2):
+        if obj.pop() != cleaned[i]:
+            return False
     return True
 
 
-s=input("Enter a word:\n").strip()
-#To abide by the constraints given
-if not (1<=len(s)<=50):
-    print("This value is bot allowed")
-    exit()
-if is_palindrome(s):
-    print(f"The word is, {s}, is a palindrome.")
-
-else:
-    print(f"The word is, {s}, is not palindrome.")
+if __name__=="__main__":
+    # Output result
+    s = input("Enter a word to check if it's a palindrome: ").strip()
+    if not (1 <= len(s) <= 50):
+        raise ValueError("Input string length must be between 1 and 50.")
+    if is_palindrome(s):
+        print(f"The word, {s}, is a palindrome.")
+    else:
+        print(f"The word, {s}, is not a palindrome.")

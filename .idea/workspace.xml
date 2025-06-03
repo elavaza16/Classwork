@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="This is my linked lists' code" />
     <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="Linked lists first code" />
     <list default="true" id="82de7169-5814-4021-aa54-4fcf87edfb7c" name="Changes" comment="This is my second linked lists code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -24,12 +25,32 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="main" />
         <entry key="$PROJECT_DIR$" value="Linked_lists" />
         <entry key="$PROJECT_DIR$" value="Linked_lists2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{}]]></component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="This is my second stacks code">
+      <option name="closed" value="true" />
+      <created>1748370471217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748370471217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is my second stacks code" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is my second stacks code" />
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,

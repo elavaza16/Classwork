@@ -1,0 +1,37 @@
+Index: Palindromes.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#Using stacks to check if a word is a palindrome\r\n\r\nclass Palindromes:\r\n    def _init_(self):\r\n        self.stack=[]\r\n    #Push the characters into a stack\r\n    def push(self,characters):\r\n        self.stack.append(characters)\r\n\r\n    def pop(self):\r\n        return  self.stack.pop()\r\n\r\ndef is_palindrome(s):\r\n\r\n    check=Palindromes()\r\n\r\n    for char in s:\r\n        check.push(char)\r\n\r\n    for i in range(len(s) //2):\r\n        if check.pop()!=s[i]:\r\n         return False\r\n    return True\r\n\r\n\r\ns=input(\"Enter a word:\\n\").strip()\r\n#To abide by the constraints given\r\nif not (1<=len(s)<=50):\r\n    print(\"This value is bot allowed\")\r\n    exit()\r\nif is_palindrome(s):\r\n    print(f\"The word is, {s}, is a palindrome.\")\r\n\r\nelse:\r\n    print(f\"The word is, {s}, is not palindrome.\")
+===================================================================
+diff --git a/Palindromes.py b/Palindromes.py
+--- a/Palindromes.py	(revision 88e4ebcbe69bfd6a4f88fd14d96104e93a23e5bf)
++++ b/Palindromes.py	(date 1748237793811)
+@@ -1,7 +1,7 @@
+ #Using stacks to check if a word is a palindrome
+ 
+ class Palindromes:
+-    def _init_(self):
++    def __init__(self):
+         self.stack=[]
+     #Push the characters into a stack
+     def push(self,characters):
+@@ -23,13 +23,12 @@
+     return True
+ 
+ 
+-s=input("Enter a word:\n").strip()
+-#To abide by the constraints given
+-if not (1<=len(s)<=50):
++s=input("Enter a word:\n").strip() #.strip() remove leading and trailing whitespace
++if not (1<=len(s)<=15): #Set constraints
+     print("This value is bot allowed")
+     exit()
+ if is_palindrome(s):
+-    print(f"The word is, {s}, is a palindrome.")
++    print(f"The word {s}, is a palindrome.")
+ 
+ else:
+-    print(f"The word is, {s}, is not palindrome.")
+\ No newline at end of file
++    print(f"The word {s}, is not palindrome.")
+\ No newline at end of file

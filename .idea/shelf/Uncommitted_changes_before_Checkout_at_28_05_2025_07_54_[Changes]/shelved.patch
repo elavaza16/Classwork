@@ -1,0 +1,40 @@
+Index: Circulardoubly_llists.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Circulardoubly_llists.py b/Circulardoubly_llists.py
+--- a/Circulardoubly_llists.py	(revision 156bf8b14eb59de4309ceda21ac9f0023b0f6ce3)
++++ b/Circulardoubly_llists.py	(date 1748373096569)
+@@ -1,0 +1,31 @@
++class CircularListNode:
++    def __init__(self,value):
++        self.value = value #stores actual data in this node
++        self.next_node = None
++        self.previous_node = None
++
++class CircularDoublyLinkedLists:  #define class to manage nodes and operations
++    def __init__(self):
++        self.start_node = None #head of the list but is None as list is empty
++
++    def insert_st_end(self,value):
++        new_node = CircularListNode(value) #new node object with value
++
++        if self.start_node is None:  #Check if linked list is empty
++            new_node.next_node = new_node
++            new_node.previous_node = new_node #node points to itself in both directions as it is the
++                                              #only node in a circular doubly linked list(list was initially empty)
++            self.start_node = new_node #update start_node pointer to this node
++
++        else: #if the list has elements . I should access the last node through attribute chaining.
++            last_node = self.start_node.previous_node
++                        #self.start_node -> first node in the list
++                        #.previous_node -> node that comes before the start_node - hence the last node in the list
++            last_node.next_node = new_node
++            new_node.previous_node = last_node
++            new_node.next_node = self.start_node
++
++
++
++
++

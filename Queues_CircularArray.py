@@ -52,8 +52,43 @@ class Circulararrayqueue:
             current_index = (current_index + 1) % len(old_data) #moves to next element
             self._front = 0 #reset to 0 after all elements are copied
 
-class Empty(Exception):
+class Empty(Exception): #Exception class
     def __init__(self, message="Queue is empty"):
         self.message = message
         super().__init__(self.message)
+
+if __name__ == "__main__":
+    queue = Circulararrayqueue()
+
+    print("QUEUES USING CIRCULAR ARRAYS")
+    print(f"The initial queue size is: {len(queue)}")
+    print(f"Is queue empty? {queue.is_empty()}")
+
+    print("\n Enqueueing our queue")
+    elements_to_enqueue = ['Alice', 'Bob', 'William', 'Dorothy', 'Jessica']
+
+    for person in elements_to_enqueue:
+        queue.enqueue(person)
+        print(f"Added {person}. Queue size is now: {len(queue)}")
+
+    print(f"\n Person at the front of the line: {queue.first()}")
+
+    print("\n Serving people from the front of the queue:")
+    for i in range(3):
+        served_person = queue.dequeue()
+        print(f"Served: {served_person}. Queue size is now: {len(queue)}")
+
+    print("\n Adding more people to induce a wrap around in the array")
+    more_people = ['Frank', 'Linda', 'Ford']
+
+    for person in more_people:
+        queue.enqueue(person)
+        print(f"Added {person}. Queue size is now: {len(queue)}")
+
+    print(f"\nPerson currently at the front: {queue.first()}")
+    print(f"\nTotal people still in queue: {len(queue)}")
+
+    print(f"\nInternal details:")
+    print(f"Front index: {queue._front}")
+    print(f"Array contents: {queue._data}")
 

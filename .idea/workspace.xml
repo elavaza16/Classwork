@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="Graphs...">
+      <change afterPath="$PROJECT_DIR$/Traversals.py" afterDir="false" />
+
 
     <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="Queues using Circular Arrays....">
       <change afterPath="$PROJECT_DIR$/Graphs.py" afterDir="false" />
@@ -21,6 +24,7 @@
 
     <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="rm">
       <change beforePath="$PROJECT_DIR$/Queues_ll.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queues_ll.py" afterDir="false" />
+
 
 
     </list>
@@ -103,12 +107,20 @@
     "Python.Queues_ll.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Traversals"
+
+
+    "Python.Queues_CircularArray.executor": "Run",
+    "Python.Queues_ll.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Graphs"
 
     "Python.Queues_ll.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "Queues"
+
 
 
   }

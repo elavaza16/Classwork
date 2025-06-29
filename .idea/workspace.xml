@@ -4,6 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="Traversing a binary tree">
+      <change afterPath="$PROJECT_DIR$/Search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+
     <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="Graphs...">
       <change afterPath="$PROJECT_DIR$/Traversals.py" afterDir="false" />
 
@@ -15,15 +20,19 @@
 
 
     <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="Queues using Circular Arrays">
+
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_06_2025_10_21_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_03_06_2025_10_21__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_05_2025_21_26_[Changes]1/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_05_2025_21_26__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
+
       <change beforePath="$PROJECT_DIR$/Queues_CircularArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queues_CircularArray.py" afterDir="false" />
 
     <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="rm">
       <change beforePath="$PROJECT_DIR$/Queues_ll.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queues_ll.py" afterDir="false" />
+
 
 
 
@@ -44,12 +53,15 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
 
+        <entry key="$PROJECT_DIR$" value="Graphs" />
+
         <entry key="$PROJECT_DIR$" value="Queues_CircularArray" />
 
 
         <entry key="$PROJECT_DIR$" value="Queues" />
 
         <entry key="$PROJECT_DIR$" value="Stacks_basics" />
+
 
 
       </map>
@@ -76,6 +88,11 @@
   <component name="ProjectId" id="2yZwCF7tCjUiEbeQbrudeWkqph5" />
 
   <component name="ProjectColorInfo">{
+
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2yrmmkjPDRZcyMqZzhyaBLfbCvw" />
+
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -83,6 +100,7 @@
   <component name="ProjectId" id="2yZwCF7tCjUiEbeQbrudeWkqph5" />
 
   <component name="ProjectId" id="2y2vWO0KGAfn0bN8PpPm39UPGOg" />
+
 
 
   <component name="ProjectLevelVcsManager">
@@ -102,6 +120,15 @@
 
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+
+    "Python.Graphs.executor": "Run",
+    "Python.Queues_CircularArray.executor": "Run",
+    "Python.Queues_ll.executor": "Run",
+    "Python.Search.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Search-algorithms"
+
 
     "Python.Queues_CircularArray.executor": "Run",
     "Python.Queues_ll.executor": "Run",
@@ -123,6 +150,7 @@
 
 
 
+
   }
 }</component>
   <component name="SharedIndexes">
@@ -134,6 +162,21 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+
+      <changelist id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="Traversing a binary tree" />
+      <created>1750530541831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750530541831</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Traversing a binary tree">
+      <option name="closed" value="true" />
+      <created>1750530585619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750530585620</updated>
+
 
       <changelist id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="Queues using Circular Arrays" />
       <created>1749407493174</created>
@@ -197,17 +240,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749045660481</updated>
 
+
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
 
+    <MESSAGE value="Traversing a binary tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Traversing a binary tree" />
+
+
     <MESSAGE value="Queues using Circular Arrays" />
     <option name="LAST_COMMIT_MESSAGE" value="Queues using Circular Arrays" />
 
     <MESSAGE value="rm" />
     <option name="LAST_COMMIT_MESSAGE" value="rm" />
+
 
 
   </component>

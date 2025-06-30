@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="Queues using Circular Arrays....">
-      <change afterPath="$PROJECT_DIR$/Graphs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="95d8e8ad-656d-4723-95b0-a417d322b643" name="Changes" comment="rm">
+      <change afterPath="$PROJECT_DIR$/too.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graphs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Queues_CircularArray" />
+        <entry key="$PROJECT_DIR$" value="Search-algorithms" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Graphs.executor": "Run",
     "Python.Queues_CircularArray.executor": "Run",
     "Python.Queues_ll.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -101,13 +102,22 @@
       <option name="project" value="LOCAL" />
       <updated>1750529770980</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="rm">
+      <option name="closed" value="true" />
+      <created>1751220782583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751220782583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Queues using Circular Arrays" />
     <MESSAGE value="Queues using Circular Arrays..." />
     <MESSAGE value="Queues using Circular Arrays...." />
-    <option name="LAST_COMMIT_MESSAGE" value="Queues using Circular Arrays...." />
+    <MESSAGE value="rm" />
+    <option name="LAST_COMMIT_MESSAGE" value="rm" />
   </component>
 </project>
